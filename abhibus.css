@@ -55,7 +55,7 @@
     
 }
 .con6{
-    position: relative;
+    /* position: relative; */
     display: flex;
     margin-left: 15px;
 }
@@ -64,16 +64,20 @@
     padding-left: 108px;
 }
 .con8{
+    display: flex;
     height: 5vh;
-    /* width: 22%; */
+    width: 22%;
+    padding: 25px;
 
 }
 .con9{
+    height: 5vh;
+    width: 22%;
     display: flex;
     margin-left: 15px;
     border: 1px solid grey;
     padding: 20px;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     border-radius: 5px;
 }
 :placeholder-shown{
