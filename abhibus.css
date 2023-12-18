@@ -1,0 +1,124 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("abhi4.jpg");
+    background-size: cover; */
+}
+*{
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+.con{
+    /* padding-right: 45px; */
+    margin-top: 25px;           
+    display: flex;
+    justify-content: space-evenly;
+}
+/* div.con1{
+    height: 45px;
+    width: 35px;
+} */
+.con1{
+   width: 95px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.con2{
+    width: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con3{
+    height: 100vh;
+    background-image: url("https://github.com/RK843/sampleimages/blob/main/3851212.jpg?raw=true");
+    background-size: cover;
+}
+.con4{
+    position: relative;
+    display: flex;
+    padding-top: 165px;
+    justify-content: center;
+}
+.con5{
+    /* position: relative; */
+    height: 5vh;
+    margin: 25px;
+    width: 22%;
+    padding: 20px;
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.con6{
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+}
+.con7{
+    display: flex;
+    padding-left: 108px;
+}
+.con8{
+    height: 5vh;
+    /* width: 22%; */
+
+}
+.con9{
+    display: flex;
+    margin-left: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+:placeholder-shown{
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+
+}
+.card{
+    height: 28vh;
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+#img1{
+    margin-top: -12px;
+    height: 45px;
+    width: 195px;
+}
+#img2{
+    height: 60vh;
+    width: 1050px; 
+}
+.heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.fa-solid{
+    /* margin: 10px; */
+    font-size: 27px;
+}
+button{
+    padding: 4px;
+    height: 7vh;
+    font-size: 28px;
+    width: 100%;
+    background-color: #dc635b;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+   
+}
+.btn{
+    margin: 18px;
+}
