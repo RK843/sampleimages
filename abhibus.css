@@ -43,43 +43,24 @@
     padding-top: 165px;
     justify-content: center;
 }
-.con5{
-    /* position: relative; */
-    height: 5vh;
-    margin: 25px;
-    width: 22%;
-    padding: 20px;
+.outersch{
     border: 1px solid grey;
-    display: flex;
+    width: 20%;
+    height: 5vh;
+    padding: 20px;
+    margin: 25px;
     border-radius: 5px;
-    
 }
-.con6{
-    /* position: relative; */
+.fromsch{
+    font-size: 20px;
+}
+.maincon{
     display: flex;
-    margin-left: 15px;
 }
 .con7{
-    display: flex;
-    padding-left: 108px;
+    padding-top: 45px;
 }
-.con8{
-    display: flex;
-    height: 5vh;
-    width: 22%;
-    padding: 25px;
 
-}
-.con9{
-    height: 5vh;
-    width: 22%;
-    display: flex;
-    margin-left: 15px;
-    border: 1px solid grey;
-    padding: 20px;
-    /* margin-top: -20px; */
-    border-radius: 5px;
-}
 :placeholder-shown{
     border: none;
     font-size: 17px;
@@ -87,7 +68,7 @@
 
 }
 .card{
-    height: 28vh;
+    height: 20vh;
     width: 100%;
     margin: 20px;
     border-radius: 10px;
@@ -107,22 +88,53 @@
     font-size: 15px;
     margin-left: 10px;
 }
+.heading1{
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-top: 29px;
+    margin-left: 545px;
+    font-weight: 100;
+}
 .fa-solid{
-    /* margin: 10px; */
+    color: #dc635b;
     font-size: 27px;
 }
-button{
+/* button{
+    
     padding: 4px;
     height: 7vh;
-    font-size: 28px;
-    width: 100%;
+    font-size: 20px;
+    width: 40%;
     background-color: #dc635b;
     border: none;
     color: white;
     font-family: sans-serif;
     border-radius: 5px;
    
+} */
+.btnpry1{
+    background-color: #dc635b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 10vh;
+    width: 190%;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 25px;
+
 }
-.btn{
-    margin: 18px;
+.btnpry{
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: #dc635b;
+    color: white;
+    margin-left: 10px;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
 }
+/* .btn{
+   width: 35%;
+} */
