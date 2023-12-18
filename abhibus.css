@@ -1,0 +1,140 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("abhi4.jpg");
+    background-size: cover; */
+}
+*{
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+.con{
+    /* padding-right: 45px; */
+    margin-top: 25px;           
+    display: flex;
+    justify-content: space-evenly;
+}
+/* div.con1{
+    height: 45px;
+    width: 35px;
+} */
+.con1{
+   width: 95px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.con2{
+    width: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con3{
+    height: 100vh;
+    background-image: url("https://github.com/RK843/sampleimages/blob/main/3851212.jpg?raw=true");
+    background-size: cover;
+}
+.con4{
+    position: relative;
+    display: flex;
+    padding-top: 165px;
+    justify-content: center;
+}
+.outersch{
+    border: 1px solid grey;
+    width: 20%;
+    height: 5vh;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 5px;
+}
+.fromsch{
+    font-size: 20px;
+}
+.maincon{
+    display: flex;
+}
+.con7{
+    padding-top: 45px;
+}
+
+:placeholder-shown{
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+
+}
+.card{
+    height: 20vh;
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+#img1{
+    margin-top: -12px;
+    height: 45px;
+    width: 195px;
+}
+#img2{
+    height: 60vh;
+    width: 1050px; 
+}
+.heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.heading1{
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-top: 29px;
+    margin-left: 545px;
+    font-weight: 100;
+}
+.fa-solid{
+    color: #dc635b;
+    font-size: 27px;
+}
+/* button{
+    
+    padding: 4px;
+    height: 7vh;
+    font-size: 20px;
+    width: 40%;
+    background-color: #dc635b;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+   
+} */
+.btnpry1{
+    background-color: #dc635b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 10vh;
+    width: 190%;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 25px;
+
+}
+.btnpry{
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: #dc635b;
+    color: white;
+    margin-left: 10px;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+}
+/* .btn{
+   width: 35%;
+} */

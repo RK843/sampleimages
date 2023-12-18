@@ -3,130 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abhibus.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-    <style>
-        .main{
-            width: 100%;
-            height: 100vh;
-            /* background-image: url("abhi4.jpg");
-            background-size: cover; */
-        }
-        *{
-            outline: none;
-            margin: 0px;
-            padding: 0px;
-        }
-        .con{
-            /* padding-right: 45px; */
-            margin-top: 25px;           
-            display: flex;
-            justify-content: space-evenly;
-        }
-        /* div.con1{
-            height: 45px;
-            width: 35px;
-        } */
-        .con1{
-           width: 95px;
-           display: flex;
-           align-items: center;
-           justify-content: space-evenly;
-
-        }
-        .con2{
-            width: 135px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .con3{
-            height: 80vh;
-            background-image: url("abhi4.jpg");
-            background-size: cover;
-        }
-        .con4{
-            display: flex;
-            padding-top: 165px;
-            justify-content: center;
-        }
-        .con5{
-            height: 5vh;
-            margin: 25px;
-            width: 22%;
-            padding: 20px;
-            border: 1px solid grey;
-            display: flex;
-            border-radius: 5px;
-            
-        }
-        .con6{
-            display: flex;
-            margin-left: 15px;
-            
-        }
-        .con7{
-            height: 5vh;
-            margin: 25px;
-            width: 22%;
-            padding: 20px;
-            border: 1px solid grey;
-            display: flex;
-            border-radius: 5px;
-        }
-        .con8{
-            display: flex;
-            margin-left: 15px;
-            
-        }
-        :placeholder-shown{
-            border: none;
-            font-size: 17px;
-            margin-left: 10px;
-
-        }
-        .card{
-            height: 28vh;
-            width: 100%;
-            margin: 20px;
-            border-radius: 10px;
-            background-color: white;
-        }
-        #img1{
-            margin-top: -12px;
-            height: 55px;
-            width: 195px;
-        }
-        #img2{
-            height: 60vh;
-            width: 1050px; 
-        }
-        .heading{
-            font-family: sans-serif;
-            font-size: 15px;
-            margin-left: 10px;
-        }
-        .fa-solid{
-            /* margin: 10px; */
-            font-size: 27px;
-        }
-        button{
-            padding: 4px;
-            height: 7vh;
-            font-size: 28px;
-            width: 100%;
-            background-color: #dc635b;
-            border: none;
-            color: white;
-            font-family: sans-serif;
-            border-radius: 5px;
-           
-        }
-        .btn{
-            margin: 18px;
-        }
-
-    </style>
 </head>
 <body>
     <div class="main">
@@ -136,7 +15,7 @@
             <i class="fa-solid fa-bus"></i><h1 class="heading">Buses</h1>
             </div>
             <div class="con1">
-            <i class="fa-solid fa-train"></i><h1 class="heading">Trains</h1>
+              <a href="https://trains.abhibus.com/?channel=abhibus-web"><i class="fa-solid fa-train"></i><h1 class="heading">Trains</h1></a>
             </div>
             <div class="con1">
             <i class="fa-solid fa-hotel"></i><h1 class="heading">Hotels</h1>
@@ -152,22 +31,33 @@
             </div>
         </div>
         <div class="con3">
+            <h1 class="heading1">Book Bus Tickets</h1>
             <div class="con4">
+                
                 <div class="card">
-                <!-- <i class="fa-solid fa-bus"></i> -->
-                <div class="con5">
-                    <div class="con6">
-                    <i class="fa-solid fa-bus"></i><input type="text" placeholder="From Station">
-                </div>
-                <!-- <i class="fa-solid fa-right-left"></i> -->
-                <div class="con7">
-                <div class="con8">
-                    <i class="fa-solid fa-location-dot"></i><input type="text" placeholder="To Station">
-                </div>
-                </div>
-                </div>
-                <div class="btn">
-                <button>Search</button>
+                    <div class="maincon">
+                    <div class="outersch">
+                        <div class="fromsch">
+                                <i class="fa-solid fa-bus"></i><input type="text" placeholder="From Station">
+                        </div>
+                    </div>
+                    <div class="con7">
+                        <i class="fa-solid fa-right-left"></i>
+                    </div>
+                    <div class="outersch">
+                        <div class="fromsch">
+                            <i class="fa-solid fa-location-dot"></i><input type="text" placeholder="To Station">
+                        </div>
+                    </div>
+                    <div class="outersch">
+                        <div class="fromsch">
+                           <input type="date" placeholder=""><button class="btnpry">Today</button><button class="btnpry">Tomorrow</button>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button class="btnpry1">Search</button>
+                    </div>
+                    </div>
                 </div>
             </div>
             </div>
