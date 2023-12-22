@@ -11,22 +11,32 @@
     <title>Document</title>
     <style>
         .main{
-            width: 60%;
-            height: 28rem;
+            width: 45%;
+            height: 32rem;
             background-color: lightcyan;
             display: flex;
-            margin: auto;
+            margin-top: 5rem;
+            margin-left: 20rem;
             border-radius: 15px;
         }
         .con{
-            display:inline;
-            justify-content: space-between;
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 2em;
+            justify-content: space-evenly;
+        }
+        .container{
+            flex-wrap: column;
+            place-content: flex-start;
         }
         :placeholder-shown{
             width: 100%;
             height: 2rem;
             border-radius: 5px;
             border: none;
+            font-family: Roboto;
+            font-weight: 400;
             background-color: lightgray;
             padding: 1em;
             margin: 1em;
@@ -35,27 +45,57 @@
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px;
             background-color: lightgray;
-        }
-        .img3{
+            width: 38%;
+            height: 31em;
             display: flex;
-            margin-top: 13em;
-            /* justify-content: flex-end; */
-            height: 12em;
-            width: 22em;
+            flex-direction: column;
+            padding: 1rem 0rem 0rem;
+            /* display: inline-flexbox; */
+            /* justify-content: center; */
+        }
+        .third{
+            display: inline;
+            padding: 1rem;
+        }
+        /* .img3{
+            margin-top: -1em;
+            height: 9em;
+            width: 12rem;
+            float: left;
+        } */
+        .img4{
+            width: 7em;
+            height: 3em;
+            margin-left: 4em;
+            /* padding: 1rem 0rem 0rem; */
         }
         .heading2{
             font-family: Roboto Italic;
             font-size: 25px;
-            color: grey;
-            font-weight: 100px;
-            padding: 15px;
+            color: #212121;
+            font-weight: 700;
+            /* padding: 15px; */
         }
         .heading3{
             font-family: Roboto Italic;
-            font-size: 20px;
-            color: grey;
-            padding: 15px;
-            font-weight: lighter;
+            font-size: 16px;
+            color: #b0b0b0;
+            /* padding: 15px; */
+            font-weight: 10;
+        }
+        .heading4{
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 900;
+
+        }
+        .para1{
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .btnlogin{
+            margin-left: 1em;
         }
         .login{
             background-color: #dc635b;
@@ -65,21 +105,43 @@
             width: 8em;
             height: 3em;
             font-size: 15px;
+            border-radius: 5px;
+        }
+        .fa-x{
+            margin-left: 20em;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="main">
         <div class="second">
-            <img src="https://static.abhibus.com/web/media/branding/Login.svg" class="img3">
+            <img src="https://static.abhibus.com/img/abhilogos/logo1.png" class="img4">
+            <div class="third">
+                <h1 class="heading4">Abhi Assured</h1>
+                <p class="para1">Protect yourself with upto 150% refund incase of service cancellation</p>
+                <h1 class="heading4">Free Cancellation</h1>
+                <p class="para1">Protect yourself from cancellation charges and get 100% refund</p>
+                <h1 class="heading4">4.6* Rating</h1>
+                <p class="para1">India's highest rated bus platform Trusted by 5+ Crore Happy Customers</p>
+            </div>
+            <img src="https://static.abhibus.com/web/media/branding/Login.svg" width="100%">
         </div>
         <div class="con">
+            <i class="fa-solid fa-x"></i>
+            
             <h1 class="heading2">Login to Abhibus</h1>
-            <h2 class="heading3">Enter Mobile Number to Continue</h2>
+            <div class="container">
+            <p class="heading3">Enter Mobile Number to Continue</p>
             <input type="tel" placeholder="enter mobile number">
-            <h2 class="heading3">Get First Ride Free</h2>
+            </div>
+            <div class="container">
+            <p class="heading3">Get First Ride Free</p>
             <input type="text" placeholder="Enter Referrel Code if Avaliable">
+            </div>
+            <div class="btnlogin">
             <button class="login">Login</button>
+            </div>
         </div>
     </div>
     
